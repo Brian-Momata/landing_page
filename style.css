@@ -2,7 +2,7 @@
     display: flex;
     background-color: #1f2937;
     margin: 0;
-    padding: 10px;
+    padding: 5px 16px;
 }
 .header ul {
     display: flex;
@@ -26,4 +26,62 @@
     font-size: 24px;
     display: flex;
     align-items: center;
+}
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding: 10px;
+    padding-top: 30px 16px;
+    margin: 0;
+}
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+.hero-left .title-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    width: 300px;
+    padding: 16px;
+    text-align: right;
+}
+.hero-left .secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 300px;
+    padding-left: 16px;
+    text-align: justify;
+}
+.hero .button {
+    padding: 16px;
+}
+button {
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 28px;
+}
+button:hover {opacity: 0.8;} 
+button:active {
+    transform: translateY(2px);
+}
+.hero-picture {
+    display: flex;
+    flex: 1 1 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px 28px;
+}
+.hero img {
+    width: 600px;
+    height: auto;
 }
