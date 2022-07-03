@@ -85,3 +85,34 @@ button:active {
     width: 600px;
     height: auto;
 }
+.information {
+    display: flex;
+    flex-direction: column;
+}
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.information-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0;
+}
+.image-one, .image-two, .image-three, .image-four {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.information-images img {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    height: 200px;
+}
+.information-images p {
+    font-size: 18px;
+    color: #404144;
+    padding-left: 4px;
+}
